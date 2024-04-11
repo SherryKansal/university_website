@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" rel="stylesheet"/>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html">
+                <img src="images/logo.png"/>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">COURSES</a></li>
+                    <li><a href="">CAMPUS</a></li>
+                    <li><a href="">FACILITIES</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p>
+                Welcome to Eduford, where excellence meets innovation in higher education!
+            </p>
+            <p>
+                At Eduford, we are committed to<br>fostering a dynamic learning environment that empowers students to 
+                thrive academically, professionally, and personally. As a premier institution of higher learning, 
+                we strive to cultivate a diverse community of scholars, thinkers, and leaders who are equipped to 
+                tackle the challenges of tomorrow.
+            </p>
+            <!-- <p>
+                Discover your potential at Eduford – where the pursuit of knowledge knows no bounds.
+            </p> -->
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+
+    <section class="courses">
+        <h1>Courses We Offer</h1>
+        <p>
+            Whether you are embarking on your undergraduate journey, seeking to advance your career through graduate 
+            studies, or pursuing lifelong learning opportunities, Eduford is here to help you succeed. Join us and 
+            become part of a community that is shaping the future through education, research, and service.
+        </p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>B.Tech.</h3>
+                <p>
+                    Our B.Tech. program offers a unique blend of rigorous academics, hands-on learning, and industry exposure, 
+                    preparing students to thrive in the dynamic world of engineering. Whether you aspire to be a mechanical 
+                    engineer, computer scientist, or civil engineer, Eduford provides the platform for you to realize your 
+                    potential and make a meaningful impact on the world.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>M.Tech.</h3>
+                <p>
+                    Elevate your expertise and advance your career with an M.Tech. degree from Eduford, a premier destination 
+                    for advanced engineering education. Our M.Tech. program offers specialized knowledge, cutting-edge research 
+                    opportunities, and industry connections that empower students to become leaders in their fields. 
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>BBA</h3>
+                <p>
+                    Unlock your potential in the business world with a BBA degree from Eduford. Our program equips students with 
+                    essential business skills, leadership qualities, and experience to excel in today's competitive environment. 
+                    With expert faculty and real-world projects, Eduford provides the perfect platform for aspiring business leaders 
+                    to thrive. 
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>
+            Located in the vibrant heart of famous cities like London, Sydney, and New York, our campus provides a 
+            rich and vibrant setting<br>for learning, innovation, and collaboration. From state-of-the-art facilities 
+            to bustling student life activities, Eduford offers a holistic<br>educational experience that extends 
+            beyond the classroom.
+        </p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/london.jpeg"/>
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/sydney.jpeg"/>
+                <div class="layer">
+                    <h3>SYDNEY</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/new-york.jpeg"/>
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>
+            Experience our top-tier facilities, including a world-class library for academic exploration, a spacious 
+            basketball court for athletic pursuits,<br>and a vibrant cafeteria offering delicious and healthy dining options. 
+            Whether you're hitting the books, shooting hoops, or enjoying a meal with friends,<br>our campus amenities cater 
+            to every aspect of your university experience.
+        </p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.jpeg"/>
+                <h3>World Class Library</h3>
+                <p>
+                    Our world-class library is a haven for scholars. With its vast collection of meticulously curated 
+                    resources spanning myriad subjects, our library offers an unparalleled academic experience. From rare 
+                    manuscripts to cutting-edge journals, students have access to an extensive array of materials to 
+                    support their intellectual pursuits.
+                </p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/basketball.jpeg"/>
+                <h3>Largest Playground</h3>
+                <p>
+                    Our expansive basketball court provides ample space for players to showcase their skills. With 
+                    regulation-sized dimensions and top-notch amenities, it's the ultimate destination for both casual 
+                    pickup games and competitive tournaments. Our court offers an unbeatable experience for basketball 
+                    enthusiasts of all levels.
+                </p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cafeteria.jpeg"/>
+                <h3>Tasty and Healthy Food</h3>
+                <p>
+                    Indulge in our cafeteria's delicious and nutritious offerings, where taste meets health in every bite. 
+                    From vibrant salads with fresh, locally-sourced ingredients to hearty grain bowls, our menu caters to 
+                    diverse palates. Savor flavorful wraps, wholesome sandwiches, and soups made from wholesome ingredients. 
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h1>What Our Students Say</h1>
+        <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and 
+            scrambled it to make a type specimen book.
+        </p>
+
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="images/christina.webp"/>
+                <div>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
+                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and 
+                        scrambled it to make a type specimen book.
+                    </p>
+                    <h3>Christina Berkley</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="images/david.jpeg"/>
+                <div>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
+                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and 
+                        scrambled it to make a type specimen book.
+                    </p>
+                    <h3>David Bryer</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h1>Enroll For Our Various Online Courses<br>Anywhere From The World</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
+            industry's standard dummy text ever since the<br>1500s, when an unknown printer took a galley of type and 
+            scrambled it to make a type specimen book.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p> Made with ♡ by Shreya Kansal</p>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";    
+        }
+    </script>
+</body>
+</html>
